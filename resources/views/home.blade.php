@@ -50,6 +50,17 @@
             justify-content: center;
         }
 
+        .hover-img{
+            box-shadow: 0;
+            transition: box-shadow .5s;
+            transition: transform 500ms;
+        }
+
+       .hover-img:hover {
+            box-shadow: 0 0 12px #515151;
+           transform: translateY(-10px);
+       }
+
         .spacer{
             margin-top: 40px;
         }
@@ -84,8 +95,8 @@
 
             </div>
                 <div class="col-8">
-                    <p class="hero-text">BECOME A MEMBER OF ONE OF COLLEGE FOOTBALLS BEST TRADITIONS  </p>
-                    <p><button style="border: solid 2px #FFFFFF; color:#FFFFFF;  background-color: Transparent;
+                    <p class="hero-text" style="text-align: center">ONE OF COLLEGE FOOTBALLS BEST TRADITIONS  </p>
+                    <p style="text-align: center"><button style="border: solid 2px #FFFFFF; color:#FFFFFF;  background-color: Transparent;
     background-repeat:no-repeat;">Join Now</button></p>
                 </div>
             </div>
@@ -102,34 +113,22 @@
         <div></div>
     </div>
    <div class="row spacer">
-       <div class="col-lg-4 mid-image" ><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"></div>
-       <div class="col-lg-4 mid-image"><img src="../img/Baker-outx2.jpg" style="border: 1px #000 solid;"></div>
-       <div class="col-lg-4 mid-image"><img src="../img/history.jpg" alt="History" style="border: 1px #000 solid;"></div>
+       <div class="col-lg-4 mid-image" ><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"  class="hover-img"></div>
+       <div class="col-lg-4 mid-image"><img src="../img/Baker-outx2.jpg" style="border: 1px #000 solid;" class="hover-img"></div>
+       <div class="col-lg-4 mid-image"><img src="../img/history.jpg" alt="History" style="border: 1px #000 solid;" class="hover-img"></div>
    </div>
     <div class="spacer"></div>
     <div class="row">
         <div class="col-lg-6 mid-image">
-            <img src="../img/gamedayparking.jpg" alt="Gameday parking" style="border: 1px solid #000000;">
+            <img src="../img/gamedayparking.jpg" alt="Gameday parking" style="border: 1px solid #000000;"  class="hover-img">
         </div>
         <div class="col-lg-6 mid-image">
-            <img src="../img/coachesluncheon.jpg" alt="Spring Game" style="border: 1px solid #000000;" >
+            <img src="../img/coachesluncheon.jpg" alt="Spring Game" style="border: 1px solid #000000;"  class="hover-img">
         </div>
     </div>
         <div class="spacer"></div>
     </div>
-<div class="footer" style="background-color: black">
-    <div class="container">
-        <div class="spacer">&nbsp;</div>
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="../img/touchdown-club-logo_small.png" alt="Logo">
-            </div>
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4"></div>
-        </div>
-    </div>
 
-</div>
 
 
 @stop
