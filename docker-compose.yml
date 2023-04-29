@@ -67,18 +67,6 @@ services:
             touchdownclub:
                 ipv4_address: 10.0.0.4
 
-    vite:
-        container_name: tdc_vite
-        image: node:18.12.1
-        tty: true
-        working_dir: /srv
-        volumes:
-            - ".:/srv"
-        entrypoint: [ "npm", "run", "dev" ]
-        networks:
-            touchdownclub:
-                ipv4_address: 10.0.0.100
-
     adminer:
         container_name: tdc_adminer
         image: adminer:4.8.1
