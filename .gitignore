@@ -16,3 +16,4 @@ yarn-error.log
 /.vscode
 .mysql_data/
 .redis_data/
+.cache/

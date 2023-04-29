@@ -39,34 +39,12 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 ```
 
-4. Restart the containers:
+4. Turn on `Laravel Mix` server for compiling and hot-reloading assets files (the command bellow have to be executed inside the `app` container):
 
 ```shell
-docker compose restart
+npm run dev
 ```
 
-5. Your application should be accessible at `http://localhost:8000/`.
+Keep this command running while working on the project. Your application should be accessible at `http://localhost:8000/`.
 
 Happy Coding!
-
-## Vite developement server error
-
-
-Within the project's Docker network, the **Vite server** is running inside a container called `vite`. On MAC OS, it may exhibit unexpected behavior (the server may hang on indefinitely without providing resources). Platforms running GNU/Linux don't show this behavior (Debian 11 and Fedora 38 have both been tested). You can access this open issue by visiting https://github.com/vitejs/vite/issues/11468 on Vite's Github issues page.
-
-Stopping the `vite` container and manually building assets after each change to your assets file (app.js, app.css,...) will prevent this error. See the instructions below:
-
-1. Stop `vite` container:
-
-```shell
-docker compose stop vite
-```
-
-2. You must manually run the build after binding to the `app` container shell after each change to your assets files:
-
-```shell
-docker compose exec app bash
-npm run build
-```
-
-*Tip*: You can remove `vite` section from services list in "docker-compose.yml" if you don't want to stop `vite` container every time you run the project.
