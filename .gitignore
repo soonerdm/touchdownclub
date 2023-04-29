@@ -14,3 +14,5 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+.mysql_data/
+.redis_data/
