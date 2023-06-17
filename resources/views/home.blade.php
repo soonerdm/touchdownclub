@@ -82,7 +82,7 @@
             </div>
             <div class="row">
             <div class="col-4">
-                <img src="../img/touchdown-club-logo_small.png" alt="Logo">
+                <img src="../img/touchdown-club-logo_small3.png" alt="Logo">
                 <div class="slide-right slide-in">
                     <h2><img src="../img/national_titles_final.png" alt="7 National Titles"></h2>
                 </div>
@@ -113,7 +113,7 @@
         <div></div>
     </div>
    <div class="row spacer">
-       <div class="col-lg-4 mid-image" ><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"  class="hover-img"></div>
+       <div class="col-lg-4 mid-image" ><a href="benefits"><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"  class="hover-img"></a></div>
        <div class="col-lg-4 mid-image"><img src="../img/Baker-outx2.jpg" style="border: 1px #000 solid;" class="hover-img"></div>
        <div class="col-lg-4 mid-image"><img src="../img/history.jpg" alt="History" style="border: 1px #000 solid;" class="hover-img"></div>
    </div>

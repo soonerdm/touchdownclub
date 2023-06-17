@@ -3,7 +3,7 @@
         <div class="spacer">&nbsp;</div>
         <div class="row">
             <div class="col-lg-4">
-                <img src="../img/touchdown-club-logo_small.png" alt="Logo">
+                <img src="../img/touchdown-club-logo_small3.png" alt="Logo">
             </div>
             <div class="col-lg-4">This is the middle</div>
             <div class="col-lg-4"></div>
