@@ -106,7 +106,8 @@
         </div>
 
     </div>
-    <div style="background-color: #841617; color: aliceblue; font-size: 32px; display: flex; justify-content: center; padding: 20px;">Game Day Parking Now Available TEST TEST </div>
+    <div style="background-color: #841617; color: aliceblue;
+    font-size: 32px; display: flex; justify-content: center; padding: 20px;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a>  </div>
     <!-- End of Hero -->
     <div class="container">
         <!--rest of body -->
