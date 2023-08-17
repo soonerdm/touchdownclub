@@ -73,7 +73,7 @@
  <div class="hero-banner">
      <h1>{{$banner_title}}</h1>
   </div>
-    <div style="height:100%">
+    <div>
     @yield('content')
     </div>
     @include('partials.footer')

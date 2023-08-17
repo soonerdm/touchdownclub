@@ -5,12 +5,7 @@
 @section('content')
 <div class="container">
 <h2>Game Day Parking</h2>
-<style>
-iframe {
-    display:block;
-    width:100%;
-}
-</style>
+
 
 
 <p>The Touchdown Club of Oklahoma offers free game day parking for members in the Parkview and South Jenkins lots with a few select spaces in the Asp. Ave. Garage that are available via a lottery</p>
@@ -21,9 +16,11 @@ iframe {
     If requesting Asp Ave. Garage Parking Facility, please include your credit card information and mark a second choice in case you aren't drawn.
   </p>
 
-  <div class="parking_form" style="height:1600px">
+  <div class="parking_form" style="display: flex;
+                                     flex-direction: column;
+                                     min-height: 100vh;">
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <div class="elfsight-app-46a4e72f-c615-4ae3-9545-ed7357969fe3"></div>
+    <div class="elfsight-app-46a4e72f-c615-4ae3-9545-ed7357969fe3" style="flex:1;"></div>
   </div>
 
 </div>

@@ -12,7 +12,7 @@
     }
 </style>
 <div style="clear:both">
-<div class="footer" style="background-color: #252525">
+<div class="footer" style="background-color: #252525;l  flex-shrink: 0;">
     <div class="container">
         <div class="spacer">&nbsp;</div>
         <div class="row">
