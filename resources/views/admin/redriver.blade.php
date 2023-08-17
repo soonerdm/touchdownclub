@@ -13,6 +13,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
+                  <h1>Red River Rivalry</h1>
             <!-- Create or Update Redriver Form -->
             <form action="{{ isset($redriver) ? route('redriver.update', $redriver->id) : route('redriver.store') }}" method="POST">
                 @csrf
@@ -56,10 +57,35 @@
                 <!-- Submit Button -->
                 <button type="submit" class="btn btn-crimson">Save</button>
             </form>
+                <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Title</th>
+                                    <th>Active</th>
+                                    <!-- Add more columns as needed -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($redrivers as $redriver)
+                                    <tr>
+                                        <td>{{ $redriver->id }}</td>
+                                        <td>{{ $redriver->details }}</td>
+                                        <td>{{ $redriver->price }}</td>
+                                        <td>{{ $redriver->title }}</td>
+                                        <td>{{ $redriver->active }}</td>
+                                        <!-- Add more columns as needed -->
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
 
-
-                </div>
+               </div>
             </div>
         </div>
     </div>
+
+
 </x-app-layout>

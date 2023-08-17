@@ -71,14 +71,14 @@ Route::middleware(['auth'])->group(function () {
     Route::put('/admin/events/{event}', 'EventController@update')->name('admin.events.update');
 });
 
-Route::middleware('auth')->group(function () {
+//Route::middleware('auth')->group(function () {
     // CRUD operations for redriver resource
     Route::get('/admin/redriver', [RedriverController::class, 'index'])->name('admin.redriver');
     Route::get('/admin/redriver/{id}', [RedriverController::class, 'show']);
     Route::post('/admin/redriver', [RedriverController::class, 'store'])->name('redriver.store');
-    Route::put('/admin/redriver/{id}', [RedriverController::class, 'update'])->name('redriver.update');
+    Route::post('/admin/redriver/{id}', [RedriverController::class, 'update'])->name('redriver.update');
     Route::delete('/admin/redriver/{id}', [RedriverController::class, 'destroy']);
-});
+//});
 
 
 
