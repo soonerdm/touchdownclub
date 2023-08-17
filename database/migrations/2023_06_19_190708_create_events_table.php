@@ -13,15 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tasks', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('Description');
-            $table->boolean('active');
-            $table->integer('bus_price');
+        Schema::create('events', function (Blueprint $table) {
+            $table->id();
+            $table->boolean('active')->default(true);
+            $table->text('details')->nullable();
             $table->timestamps();
         });
-
-        //
     }
 
     /**
@@ -31,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('events');
     }
 };

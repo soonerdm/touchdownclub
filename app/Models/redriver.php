@@ -2,10 +2,18 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class redriver extends Model
+class Redriver extends Model
 {
-    use HasFactory;
+    protected $table = 'redriver';
+    protected $fillable = [
+        'active',
+        'title',
+        'details',
+        'bus_tickets',
+        'price',
+        'home_content',
+    ];
 }
+

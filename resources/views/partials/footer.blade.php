@@ -1,12 +1,39 @@
+<style>
+    .footer-link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .footer-link:hover{
+        text-decoration: underline;
+        color: #FFF;
+    }
+    .footer-header{
+        color: #FFFFFF;
+    }
+</style>
+<div style="clear:both">
 <div class="footer" style="background-color: #252525">
     <div class="container">
         <div class="spacer">&nbsp;</div>
         <div class="row">
             <div class="col-lg-4">
-                <img src="../img/touchdown-club-logo_small.png" alt="Logo">
+                <a href="/"><img src="../img/touchdown-club-logo_small3.png" alt="Logo"></a>
             </div>
-            <div class="col-lg-4">This is the middle</div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4">This is the middle
+                <p><a href="" class="footer-link">Join</a></p>
+                <p><a href="" class="footer-link">History</a></p>
+                <p><a href="" class="footer-link">Red River Weekend</a></p>
+                <p><a href="" class="footer-link">Game Day Parking</a></p>
+                <p><a href="" class="footer-link">Spring Game Luncheon</a></p>
+                <p><a href="" class="footer-link">Projects</a></p>
+                <p><a href="" class="footer-link">Contact</a></p>
+            </div>
+            <div class="col-lg-4">
+            <h2 class="footer-header">SOCIALS</h2>
+                <p><a href="/" class="footer-link">Facebook</a></p>
+                <p><a href="/" class="footer-link">Instagram</a></p>
+                <p><a href="/" class="footer-link">Threads</a></p>
+            </div>
         </div>
     </div>
 
