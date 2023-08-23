@@ -57,10 +57,10 @@
                 <!-- Submit Button -->
                 <button type="submit" class="btn btn-crimson">Save</button>
             </form>
-                <table>
+                <table
                             <thead>
                                 <tr>
-                                    <th>ID</th>
+                                    <th>ID.</th>
                                     <th>Name</th>
                                     <th>Price</th>
                                     <th>Title</th>
