@@ -24,7 +24,7 @@ football. Dating back to 1900, when the two teams first clashed on the gridiron,
  </p>
 <form action="https://outdclub.foxycart.com/cart" target="_self" method="post" accept-charset="utf-8" name="tdform">
     <input type="hidden" name="name" value="OU/TX Weekend Touchdown Club packages" />
-    <input type="hidden" name="price" value="40" />
+    <input type="hidden" name="price" value="60" />
 
 
     <h2>Fairgrounds Transportation For The Game</h2>
@@ -46,7 +46,7 @@ Avoid the traffic and the hassle of driving!  The Touchdown Club will have buses
             qty
 
           <br>
-            <input type="submit" name="Type" value="Bus Pass" id="busPass" disabled >
+            <input type="submit" name="Type" value="Bus Pass" id="busPass" disabled  class="btn btn-crimson" >
 
 
 
