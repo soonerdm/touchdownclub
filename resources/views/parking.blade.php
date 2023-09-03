@@ -8,7 +8,7 @@
 
 
 
-<p>The Touchdown Club of Oklahoma offers free game day parking for members in the Parkview and South Jenkins lots with a few select spaces in the Asp. Ave. Garage that are available via a lottery</p>
+<p>The Touchdown Club of Oklahoma offers free game day parking for members in the Parkview and South Jenkins lots with a few select spaces in the Asp Ave. Garage that are available via a lottery.</p>
 
 <p>When this option is available you will get a letter in the mail and at that point you may email <a href="mailto:outdclub@outdclub.com">outdclub@outdclub.com</a> for your preference.</p>
 

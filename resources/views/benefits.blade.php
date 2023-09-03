@@ -19,7 +19,6 @@
                    </li><li>Annual High School Recruit Review
                    </li><li><img src="images/sooners.gif" border="0" width="250" height="80" alt="" align="right" valign="bottom">Exclusive Group Travel to Selected Away Games
                    </li><li>The Kickoff (weekly emailed national newsletter with rankings &amp; fun facts)
-                   </li><li>Annual OU-TX Brunch &amp; Buses in Dallas
                    </li><li>Membership Decals
                    </li><li> Full subscription to Sooner Spectator Magazine
                    </li><li>Yearly dues $275
