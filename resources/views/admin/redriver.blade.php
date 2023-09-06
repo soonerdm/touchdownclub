@@ -57,30 +57,7 @@
                 <!-- Submit Button -->
                 <button type="submit" class="btn btn-crimson">Save</button>
             </form>
-                <table
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Price</th>
-                                    <th>Title</th>
-                                    <th>Active</th>
-                                    <!-- Add more columns as needed -->
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach ($redrivers as $redriver)
-                                    <tr>
-                                        <td>{{ $redriver->id }}</td>
-                                        <td>{{ $redriver->details }}</td>
-                                        <td>{{ $redriver->price }}</td>
-                                        <td>{{ $redriver->title }}</td>
-                                        <td>{{ $redriver->active }}</td>
-                                        <!-- Add more columns as needed -->
-                                    </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+
 
                </div>
             </div>

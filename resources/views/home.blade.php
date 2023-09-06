@@ -108,7 +108,9 @@
     </div>
     <div style="background-color: #841617;
                 font-size: 32px;  padding: 20px; text-align: center;text-align: center;">
-                <p><a href="/outx" style="color:#FFFFFF; text-decoration:none;">Reserve your tickets for the bus to the OU/TX game.</a></p>
+                @if($redriver->active == 1)
+                <p><a href="/outx" style="color:#FFFFFF; text-decoration:none;">{{$redriver->home_content}}</a></p>
+                @endif
 
         <p style="clear:both;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a></p>
      </div>

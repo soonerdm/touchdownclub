@@ -31,9 +31,11 @@ Route::get('/join', function(){
     return view('join', ['banner_title' => 'JOIN THE TOUCHDOWN CLUB'] );
 });
 
-Route::get('/outx', function(){
-    return view('outx', ['banner_title' => 'RED RIVER RIVALRY'] );
-});
+Route::get('/outx', [RedriverController::class, 'publicPage'])->name('redriver. publicPage');
+//
+// Route::get('/outx', function(){
+//     return view('outx', ['banner_title' => 'RED RIVER RIVALRY'] );
+// });
 
 Route::get('/parking', function(){
     return view('parking', ['banner_title' => 'GAME DAY PARKING'] );

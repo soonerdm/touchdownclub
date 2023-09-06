@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
      public function index()
         {
-           $redrivers = Redriver::where('active', true)->get();
-              return view('home', compact('redrivers'));
+           $redriver = Redriver::find(1);
+              return view('home', compact('redriver'));
         }
 }

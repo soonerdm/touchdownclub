@@ -28,27 +28,21 @@ football. Dating back to 1900, when the two teams first clashed on the gridiron,
 
 
     <h2>Fairgrounds Transportation For The Game</h2>
-    <span style="font-size: 14px;"> <h6>Reserve your tickets for the bus to the OU/TX game</h6> <br>
-      Reserve your tickets for the bus to the OU/TX game.
-
-      The buses are police escorted, and leave from and return to the Renaissance Dallas Addison. Buses will leave approximately 4 hours before game time. Times and further loading instructions will be sent with your wristbands when the game time is released.  After the game, the buses will leave the fair as they fill up, with the last bus leaving 1 1/2 hours after the game.
-       <br>  Tickets are $40 per person.
+    <span style="font-size: 14px;"> <h6>{{$redriver->title}}</h6>
+     {{$redriver->details}}
+       <br>  Tickets are {{$redriver->price}} per person.
         <!-- PRICE HERE --></span>
     <br>
     <select name="quantity">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <select>
-            qty
+    @for ($i = 1; $i <= $redriver->bus_tickets; $i++)
+        <!-- Your loop content here -->
+      <option value="{{$i}}">{{$i}}</option>
+    @endfor
+    </select>
+     qty
 
           <br>
-            <input type="submit" name="Type" value="Bus Pass" id="busPass"  class="btn btn-crimson" >
+      <input type="submit" name="Type" value="Bus Pass" id="busPass" class="btn btn-crimson" {{ $redriver->active == 0 ? 'disabled' : '' }}>
 
 
 

@@ -9,8 +9,13 @@ class RedriverController extends Controller
 {
     public function index()
     {
-        $redrivers = Redriver::all();
-        return View::make('admin.redriver', compact('redrivers'));
+        $redriver = Redriver::find(1);
+        return View::make('admin.redriver', compact('redriver'));
+    }
+
+    public function publicPage(){
+        $redriver = Redriver::find(1);
+         return View::make('outx', ['banner_title' => 'RED RIVER RIVALRY', 'redriver' => $redriver]);
     }
 
     public function show($id)
@@ -52,7 +57,15 @@ class RedriverController extends Controller
     public function update(Request $request, $id)
     {
         $redriver = Redriver::findOrFail($id);
-        $redriver->update($request->all());
+        // Check if 'active' is provided in the request and its value is 1
+        $active = $request->input('active') == 'on' ? 1 : 0;
+
+        // Merge the 'active' value with the rest of the request data
+        $data = array_merge($request->all(), ['active' => $active]);
+
+        // Update the 'Redriver' model with all the merged data
+        $redriver->update($data);
+
         return View::make('admin.redriver', compact('redriver'));
     }
 
