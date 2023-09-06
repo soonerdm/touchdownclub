@@ -106,8 +106,12 @@
         </div>
 
     </div>
-    <div style="background-color: #841617; color: aliceblue;
-    font-size: 32px; display: flex; justify-content: center; padding: 20px;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a>  </div>
+    <div style="background-color: #841617;
+                font-size: 32px;  padding: 20px; text-align: center;text-align: center;">
+                <p><a href="/outx" style="color:#FFFFFF; text-decoration:none;">Reserve your tickets for the bus to the OU/TX game.</a></p>
+
+        <p style="clear:both;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a></p>
+     </div>
     <!-- End of Hero -->
     <div class="container">
         <!--rest of body -->
