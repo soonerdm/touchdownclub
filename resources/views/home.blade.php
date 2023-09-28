@@ -72,6 +72,17 @@
             line-height: 60px;
 
         }
+        @media (max-width: 800px) {
+          /* Hide the image and display the text */
+          .desktop-only {
+            display: none;
+          }
+          .mid-image{
+            padding-top:4px;
+            padding-bottom:4px;
+          }
+
+        }
 
     </style>
     <div class="hero">
@@ -82,20 +93,20 @@
             </div>
             -->
             <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4">
                 <img src="../img/touchdown-club-logo_small3.png" alt="Logo">
-                <div class="slide-right slide-in">
+                <div class="slide-right slide-in desktop-only">
                     <h2><img src="../img/national_titles_final.png" alt="7 National Titles"></h2>
                 </div>
-                <div class="slide-right-2 slide-in">
+                <div class="slide-right-2 slide-in desktop-only">
                     <h2><img src="../img/heisman.png" alt="7 Heisman Winners"></h2>
                 </div>
-                <div class="slide-right-3 slide-in">
+                <div class="slide-right-3 slide-in desktop-only">
                     <h2><img src="../img/confrence.png" alt="50 Conference titles"></h2>
                 </div>
 
             </div>
-                <div class="col-8">
+                <div class="col-lg-8">
                     <p class="hero-text" style="text-align: center">COLLEGE FOOTBALLS BEST TRADITION  </p>
                     <p style="text-align: center"><a href="/join"><button style="border: solid 2px #FFFFFF; color:#FFFFFF;  background-color: Transparent;
     background-repeat:no-repeat;">Join Now</button></a></p>
@@ -121,17 +132,17 @@
         <div></div>
     </div>
    <div class="row spacer">
-       <div class="col-lg-4 mid-image" ><a href="join"><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"  class="hover-img"></a></div>
-       <div class="col-lg-4 mid-image"><a href="outx"><img src="../img/Baker-outx2.jpg" style="border: 1px #000 solid;" class="hover-img"></a></div>
-       <div class="col-lg-4 mid-image"><a href="/history"><img src="../img/history.jpg" alt="History" style="border: 1px #000 solid;" class="hover-img"></a></div>
+       <div class="col-lg-4 mid-image" ><a href="join"><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"  class="hover-img img-fluid"></a></div>
+       <div class="col-lg-4 mid-image"><a href="outx"><img src="../img/Baker-outx2.jpg" style="border: 1px #000 solid;" class="hover-img img-fluid"></a></div>
+       <div class="col-lg-4 mid-image"><a href="/history"><img src="../img/history.jpg" alt="History" style="border: 1px #000 solid;" class="hover-img img-fluid"></a></div>
    </div>
     <div class="spacer"></div>
     <div class="row">
         <div class="col-lg-6 mid-image">
-            <a href="parking"><img src="../img/gamedayparking.jpg" alt="Gameday parking" style="border: 1px solid #000000;"  class="hover-img"></a>
+            <a href="parking"><img src="../img/gamedayparking.jpg" alt="Gameday parking" style="border: 1px solid #000000;"  class="hover-img img-fluid"></a>
         </div>
         <div class="col-lg-6 mid-image">
-            <a href="redwhitegame"><img src="../img/coachesluncheon.jpg" alt="Spring Game" style="border: 1px solid #000000;"  class="hover-img"></a>
+            <a href="redwhitegame"><img src="../img/coachesluncheon.jpg" alt="Spring Game" style="border: 1px solid #000000;"  class="hover-img img-fluid"></a>
         </div>
     </div>
         <div class="spacer"></div>

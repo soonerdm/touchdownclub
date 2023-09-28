@@ -24,7 +24,7 @@ football. Dating back to 1900, when the two teams first clashed on the gridiron,
  </p>
 <form action="https://outdclub.foxycart.com/cart" target="_self" method="post" accept-charset="utf-8" name="tdform">
     <input type="hidden" name="name" value="OU/TX Weekend Touchdown Club packages" />
-    <input type="hidden" name="price" value="40" />
+    <input type="hidden" name="price" value="{{$redriver->price}}" />
 
 
     <h2>Fairgrounds Transportation For The Game</h2>

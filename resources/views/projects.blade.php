@@ -12,15 +12,15 @@
 
 
 
-    <img src="img/TDCPresidentsLobby1.jpg" border="0" width="480"><br>
+    <img src="img/TDCPresidentsLobby1.jpg" border="0" width="480" class="img-fluid"><br>
 
 
 
-    <img src="img/TDCPresidentsLobby2.jpg" alt="" border="0" width="480"><br>
+    <img src="img/TDCPresidentsLobby2.jpg" alt="" border="0" width="480" class="img-fluid"><br>
 
 
 
-    <img src="img/TDCPresidentsLobby3.jpg" alt="" width="480"><br>
+    <img src="img/TDCPresidentsLobby3.jpg" alt="" width="480" class="img-fluid"><br>
 
 
 
@@ -38,11 +38,11 @@
 
             <h2>Headington Hall – Donation of $500,000, Given in August 2012</h2>
 
-    <img src="img/HeadingtonHall1.jpg" alt="" width="480"><br>
+    <img src="img/HeadingtonHall1.jpg" alt="" width="480" class="img-fluid"><br>
 
-    <img src="img/HeadingtonHall2.jpg" alt="" width="480"><br>
+    <img src="img/HeadingtonHall2.jpg" alt="" width="480" class="img-fluid"><br>
 
-    <img src="img/HeadingtonHall3.jpg" alt="" width="480"><br>
+    <img src="img/HeadingtonHall3.jpg" alt="" width="480" class="img-fluid"><br>
 
         </p>
 
