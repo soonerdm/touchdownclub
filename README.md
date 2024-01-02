@@ -70,3 +70,8 @@ $ cd /srv/touchdownclub
 To use git commands you must switch user to 
 su touchdownclub
 
+Root to run Artisan commands
+
+DB = touchdownclub
+DB User = touchdownclub@localhost
+
