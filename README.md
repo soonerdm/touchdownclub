@@ -62,3 +62,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Build site on Digital Ocean
+
+Login the the DO control panel and use the Access link to access the server. 
+$ cd /srv/touchdownclub
+To use git commands you must switch user to 
+su touchdownclub
+
