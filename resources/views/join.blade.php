@@ -21,7 +21,7 @@
                            </li><li>Spring Football Lunch Meeting (in conjunction with the Red &amp; White Game in April)
                            </li><li>Annual High School Recruit Review
                            </li><li>The Kickoff (weekly emailed national newsletter with rankings &amp; fun facts)
-                           </li><li>Annual OU-TX Brunch &amp; Buses in Dallas
+                           </li><li>Annual OU-TX Buses in Dallas
                            </li><li>Membership Decals
                            </li><li> Full subscription to Sooner Spectator Magazine
                            </li><li>Yearly dues $275

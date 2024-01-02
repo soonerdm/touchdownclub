@@ -17,4 +17,5 @@ yarn-error.log
 .mysql_data/
 .redis_data/
 .cache/
-public/img/.DS_Store
+/public/img/.DS_Store
+/public/.DS_Store
