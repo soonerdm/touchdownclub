@@ -53,6 +53,11 @@
                     <label for="home_content">Home Page Content:</label>
                     <textarea id="home_content" class="form-control" name="home_content">{{ isset($redriver) ? $redriver->home_content : '' }}</textarea>
                 </div>
+                 <!-- Game Ticket Price -->
+                <div class="form-group">
+                    <label for="game_ticket_price">Game Ticket Price:</label>
+                    <input type="text" id="home_content" class="form-control" name="home_content">{{ isset($redriver) ? $redriver->home_content : '' }}</textarea>
+                </div>
 
                 <!-- Submit Button -->
                 <button type="submit" class="btn btn-crimson">Save</button>

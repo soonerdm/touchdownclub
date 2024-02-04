@@ -75,3 +75,5 @@ Root to run Artisan commands
 DB = touchdownclub
 DB User = touchdownclub@localhost
 
+Local DB on http://localhost:5001/
+
