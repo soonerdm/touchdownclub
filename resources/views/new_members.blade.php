@@ -33,7 +33,9 @@
         <br>
     <label>Sooner Club Acct. #</label> <input type="text" name="Acct Number">
     <br>
+
 <br>
+
      <button type="submit" name="Membership" class="btn btn-crimson">Click to Join $285</button><small>(Includes Processing Fees)</small>
 
 </div>
@@ -56,7 +58,7 @@
                         <a href="https://outdclub.foxycart.com/cart?name=All+Conference+Club+(3+Year)&amp;price=150" class="btn btn-crimson">All Conference Club (3 Year) $150</a>
                       </div>
                     <div class="container" style="margin:8px 0;">
-                        <a href="https://outdclub.foxycart.com/cart?name=Varsity+Club+(1+Year)&amp;price=150" class="btn btn-crimson">Varsity Club (1 Year) $60</a>
+                        <a href="https://outdclub.foxycart.com/cart?name=Varsity+Club+(1+Year)&amp;price=60" class="btn btn-crimson">Varsity Club (1 Year) $60</a>
                       </div>
             </div>
 </div>

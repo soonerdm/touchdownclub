@@ -34,10 +34,17 @@
     <hr width=50>
     <h3>Renew OU/TX tickets</h3>
        <label class="label_left">Only add this if they appear on your statement.</label><br>
-       <a href="https://outdclub.foxycart.com/cart?name=2+OU|TX+Ticket+Renewal+&amp;price=420"><button class="btn btn-crimson">Add To Cart $420</button></a> <small style="font-weight:normal !important">(Includes Processing Fees)</small>
+       <form action="https://outdclub.foxycart.com/cart" method="post" accept-charset="utf-8">
+        <label>Email Address or Smart phone number where tickets will be sent.</label>
+        <input type="text" name="EmailOrPhone" value="" style=margin-bottom:12px>
+<br>    <input type="hidden" name="name" value="2|OU-TX tickets">
+        <input type="hidden" name="price" value="420">
+        <input type="submit" class="btn btn-crimson" value="Add To Cart $420"><small style="font-weight:normal !important">(Includes Processing Fees)</small>
+        </form>
         <hr width=50>
+
        <h3>Additional Donation</h3>
-  <form action="https://outdclub.foxycart.com/cart" method="post" rel="shadowbox;height=140;width=120" accept-charset="utf-8">
+  <form action="https://outdclub.foxycart.com/cart" method="post" accept-charset="utf-8">
              <input type="hidden" name="name" value="Additional Donation">
              <input type="text" name="price" value="" size="9" maxlength="9" style=margin-bottom:12px>
              <br>
@@ -64,7 +71,7 @@
                 <a href="https://outdclub.foxycart.com/cart?name=All+Conference+Club+(3+Year)&amp;price=150" class="btn btn-crimson">All Conference Club (3 Year) $150</a>
               </div>
             <div class="container" style="margin:8px 0;">
-                <a href="https://outdclub.foxycart.com/cart?name=Varsity+Club+(1+Year)&amp;price=150" class="btn btn-crimson">Varsity Club (1 Year) $60</a>
+                <a href="https://outdclub.foxycart.com/cart?name=Varsity+Club+(1+Year)&amp;price=60" class="btn btn-crimson">Varsity Club (1 Year) $60</a>
               </div>
     </div>
  <div><hr color="#990000"></div>
