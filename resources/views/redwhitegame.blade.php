@@ -23,7 +23,7 @@
                      qty
     		<br>
                  <br>
-                 <input type="submit" name="Type" value="Spring Game BBQ Tickets" >
+                 <input type="submit" name="Type" value="Spring Game BBQ Tickets" disabled>
                  </form>
     <br>
     <hr>
@@ -54,7 +54,7 @@
     		Comments<br>
     		<textarea name=comments rows=3 cols=24></textarea>
     <br>
-        <input type="submit" name="Type" value="Spring Game Tickets">
+        <input type="submit" name="Type" value="Spring Game Tickets" disabled>
             </form>
 
                      <hr>
