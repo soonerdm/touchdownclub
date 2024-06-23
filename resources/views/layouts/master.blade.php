@@ -10,7 +10,7 @@
         <meta name="description" content="University of Oklahoma Touchdown Club" />
         <!-- TWITTER AND OG cards -->
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="" />
+        <meta name="twitter:site" content="https://outdclub.com" />
         <meta name="twitter:title" content="University of Oklahoma Touchdown Club" />
         <meta name="twitter:image" content="">
 
@@ -19,9 +19,9 @@
         <meta property="og:description" content="University of Oklahoma Touchdown Club" />
         <meta property="og:url" content="https://outdclub.com" />
         <meta property="og:site_name" content="University of Oklahoma Touchdown Club" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="400" />
+        <meta property="og:image" content="https://outdclub.com/img/2touchdown-club-logo_small.png" />
+        <meta property="og:image:width" content="250" />
+        <meta property="og:image:height" content="243" />
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
