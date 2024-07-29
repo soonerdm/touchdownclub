@@ -123,7 +123,7 @@
                 <p><a href="/outx" style="color:#FFFFFF; text-decoration:none;">{{$redriver->home_content}}</a></p>
                 @endif
 
-     <!--    <p style="clear:both;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a></p> -->
+        <p style="clear:both;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a></p>
      </div>
     <!-- End of Hero -->
     <div class="container">
