@@ -14,6 +14,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                   <h1>Red River Rivalry</h1>
+                  <h3 style="color:red;">ALL FIELDS REQUIRED</h3>
             <!-- Create or Update Redriver Form -->
             <form action="{{ isset($redriver) ? route('redriver.update', $redriver->id) : route('redriver.store') }}" method="POST">
                 @csrf
@@ -50,13 +51,13 @@
 
                 <!-- Home Content -->
                 <div class="form-group">
-                    <label for="home_content">Home Page Content:</label>
+                    <label for="home_content">Home Page Content: </label>
                     <textarea id="home_content" class="form-control" name="home_content">{{ isset($redriver) ? $redriver->home_content : '' }}</textarea>
                 </div>
                  <!-- Game Ticket Price -->
                 <div class="form-group">
                     <label for="game_ticket_price">Game Ticket Price:</label>
-                    <input type="text" id="home_content" class="form-control" name="home_content">{{ isset($redriver) ? $redriver->home_content : '' }}</textarea>
+                    <input type="text" id="game_price" class="form-control" name=game_price value="{{ isset($redriver) ? $redriver->game_price : '' }}" >
                 </div>
 
                 <!-- Submit Button -->

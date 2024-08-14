@@ -46,6 +46,7 @@ class RedriverController extends Controller
              'title' => $request->input('title'),
              'bus_tickets' =>$request->input('bus_tickets'),
               'price' =>$request->input('price'),
+              'game_price' => $request('game_price'),
                'home_content' =>$request->input('home_content'),
            ]
         );
@@ -54,20 +55,36 @@ class RedriverController extends Controller
         return View::make('admin.redriver', compact('redrivers'));
     }
 
-    public function update(Request $request, $id)
-    {
-        $redriver = Redriver::findOrFail($id);
-        // Check if 'active' is provided in the request and its value is 1
-        $active = $request->input('active') == 'on' ? 1 : 0;
+   public function update(Request $request, $id) {
+       // Find the Redriver entry by ID
+       $redriver = Redriver::find($id);
 
-        // Merge the 'active' value with the rest of the request data
-        $data = array_merge($request->all(), ['active' => $active]);
+       // Check if the entry exists
+       if (!$redriver) {
+           return redirect()->back()->with('error', 'Redriver entry not found.');
+       }
 
-        // Update the 'Redriver' model with all the merged data
-        $redriver->update($data);
+       // Determine the active status
+       $active = ($request->input('active') == 1) ? 1 : 0;
 
-        return View::make('admin.redriver', compact('redriver'));
-    }
+       // Update the fields
+       $redriver->active = $active;
+       $redriver->details = $request->input('details');
+       $redriver->title = $request->input('title');
+       $redriver->bus_tickets = $request->input('bus_tickets');
+       $redriver->price = $request->input('price');
+       $redriver->game_price = $request->input('game_price');
+       $redriver->home_content = $request->input('home_content');
+
+       // Save the updated entry
+       $redriver->save();
+
+       // Retrieve all Redriver entries for the view
+       $redrivers = Redriver::all();
+
+       // Redirect back to the view with a success message
+       return redirect()->route('admin.redriver')->with('success', 'Redriver entry updated successfully.');
+   }
 
     public function destroy($id)
     {
