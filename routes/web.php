@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\RedriverController;
+use App\Http\Controllers\ParkingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,10 +38,13 @@ Route::get('/outx', [RedriverController::class, 'publicPage'])->name('redriver. 
 //     return view('outx', ['banner_title' => 'RED RIVER RIVALRY'] );
 // });
 
+Route::get('/parking', [ParkingController::class, 'parkingPage'])->name('parking.parkingPage');
+
+/*
 Route::get('/parking', function(){
     return view('parking', ['banner_title' => 'GAME DAY PARKING'] );
 });
-
+*/
 Route::get('/redwhitegame', function(){
     return view('redwhitegame', ['banner_title' => 'RED WHITE GAME ACTIVITIES'] );
 });
@@ -72,6 +76,15 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/events/{event}/edit', 'EventController@edit')->name('admin.events.edit');
     Route::put('/admin/events/{event}', 'EventController@update')->name('admin.events.update');
 });
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/admin/parking', [ParkingController::class, 'index'])->name('admin.parking');
+    Route::get('/admin/parking/{id}/edit', [ParkingController::class, 'edit'])->name('parking.edit');
+    Route::post('/admin/parking/{id}', [ParkingController::class, 'update'])->name('parking.update');
+     Route::post('/admin/parkingCreate', [ParkingController::class, 'store'])->name('parking.store');
+});
+
+
 
 //Route::middleware('auth')->group(function () {
     // CRUD operations for redriver resource

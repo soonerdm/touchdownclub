@@ -21,6 +21,10 @@
                      <x-nav-link href="{{ route('admin.redriver') }}" >
                                                               Red River
                                                             </x-nav-link>
+                     <x-nav-link href="{{ route('admin.parking') }}" >
+                         Parking
+                     </x-nav-link>
+
                 </div>
             </div>
 

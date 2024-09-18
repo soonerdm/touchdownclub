@@ -65,7 +65,9 @@ class RedriverController extends Controller
        }
 
        // Determine the active status
-       $active = ($request->input('active') == 1) ? 1 : 0;
+      // die($request->input('active'));
+
+       $active = ($request->input('active') == 'on') ? 1 : 0;
 
        // Update the fields
        $redriver->active = $active;

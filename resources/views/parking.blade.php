@@ -16,13 +16,14 @@
 
 
   </p>
-
+@if($parking->active ==1 )
   <div class="parking_form" style="display: flex;
                                      flex-direction: column;
                                      min-height: 100vh;">
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-46a4e72f-c615-4ae3-9545-ed7357969fe3" style="flex:1;"></div>
   </div>
+  @endif
 
 </div>
 @stop

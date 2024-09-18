@@ -122,8 +122,9 @@
                 @if($redriver->active == 1)
                 <p><a href="/outx" style="color:#FFFFFF; text-decoration:none;">{{$redriver->home_content}}</a></p>
                 @endif
-
-        <p style="clear:both;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">Game Day Parking Now Available</a></p>
+        @if($parking->active==1)
+        <p style="clear:both;"><a href="/parking" style="color:#FFFFFF; text-decoration:none;">{{$parking->content}}</a></p>
+        @endif
      </div>
     <!-- End of Hero -->
     <div class="container">
