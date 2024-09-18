@@ -76,6 +76,15 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                        {{ __('Events') }}
+                    </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ route('admin.redriver') }}">
+                        {{ __('Red River') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ route('admin.parking') }}">
+                        {{ __('Parking') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
