@@ -63,6 +63,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Build Local
+
+docker-compose up -d
+localhost:8000
+
 ## Build site on Digital Ocean
 
 Login the the DO control panel and use the Access link to access the server. 

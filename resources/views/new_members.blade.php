@@ -14,7 +14,7 @@
 
          <label class="label_left">OU TX tix:</label>
              <input type="checkbox" name="OU/TX Tix" value="Y">
-             <span style="font-size: 10px;">waiting list based on join date</span>
+             <span style="font-size: 10px;">First Come, First Served</span>
 
     <br>
  <label class="label_left">How did you hear about us</label>

@@ -16,9 +16,9 @@
         <h1>Benefits</h1>
           <ul>
                            <li>Donor Points for Priority Football Seating
-                           </li><li>OU-TX Football Game Tickets (limited availability - waiting list based on date joined)
+                           </li><li>OU-TX Football Game Tickets (limited availability - first come, first served basis)
                            </li><li>Member Gameday Parking
-                           </li><li>Spring Football Lunch Meeting (in conjunction with the Red &amp; White Game in April)
+                           </li><li>Spring Football Lunch Meeting (in conjunction with the Spring Game in April)
                            </li><li>Annual High School Recruit Review
                            </li><li>The Kickoff (weekly emailed national newsletter with rankings &amp; fun facts)
                            </li><li>Annual OU-TX Buses in Dallas
