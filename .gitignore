@@ -19,3 +19,5 @@ yarn-error.log
 .cache/
 /public/img/.DS_Store
 /public/.DS_Store
+.DS_Store
+/View/.DS_Store

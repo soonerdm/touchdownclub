@@ -6,7 +6,7 @@
 <div class="container">
       <form action="https://outdclub.foxycart.com/cart" method="post" rel="shadowbox;height=140;width=120" accept-charset="utf-8">
                  <input type="hidden" name="name" value="Red White Game BBQ Tickets" />
-                 <input type="hidden" name="price" value="40" />
+                 <input type="hidden" name="price" value="35" />
 
                  <label class="label_left" style="font-weight: bold">Annual Spring Game BBQ </label><br>
                  <span style="font-size: 14px;"></span>
@@ -23,7 +23,7 @@
                      qty
     		<br>
                  <br>
-                 <input type="submit" name="Type" value="Spring Game BBQ Tickets" disabled>
+                 <input type="submit" name="Type" value="Spring Game BBQ Tickets">
                  </form>
     <br>
     <hr>
@@ -54,7 +54,7 @@
     		Comments<br>
     		<textarea name=comments rows=3 cols=24></textarea>
     <br>
-        <input type="submit" name="Type" value="Spring Game Tickets" disabled>
+        <input type="submit" name="Type" value="Spring Game Tickets">
             </form>
 
                      <hr>
