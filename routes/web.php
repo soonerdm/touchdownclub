@@ -46,7 +46,7 @@ Route::get('/parking', function(){
 });
 */
 Route::get('/redwhitegame', function(){
-    return view('redwhitegame', ['banner_title' => 'RED WHITE GAME ACTIVITIES'] );
+    return view('redwhitegame', ['banner_title' => 'SPRING LUNCH'] );
 });
 
 Route::get('/projects', function(){
