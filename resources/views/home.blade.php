@@ -133,17 +133,17 @@
         <div></div>
     </div>
    <div class="row spacer">
-       <div class="col-lg-4 mid-image" ><a href="join"><img src="../img/bobmembership.jpg" style="border: 1px #000 solid;"  class="hover-img img-fluid"></a></div>
-       <div class="col-lg-4 mid-image"><a href="outx"><img src="../img/Baker-outx2.jpg" style="border: 1px #000 solid;" class="hover-img img-fluid"></a></div>
-       <div class="col-lg-4 mid-image"><a href="/history"><img src="../img/history.jpg" alt="History" style="border: 1px #000 solid;" class="hover-img img-fluid"></a></div>
+       <div class="col-lg-4 mid-image" ><a href="join"><img src="../img/Mem_benefits.jpg" style="border: 1px #000 solid;"  class="hover-img img-fluid"></a></div>
+       <div class="col-lg-4 mid-image"><a href="outx"><img src="../img/red_river_front_page.jpg" style="border: 1px #000 solid;" class="hover-img img-fluid"></a></div>
+       <div class="col-lg-4 mid-image"><a href="/history"><img src="../img/front_page_history.jpg" alt="History" style="border: 1px #000 solid;" class="hover-img img-fluid"></a></div>
    </div>
     <div class="spacer"></div>
     <div class="row">
         <div class="col-lg-6 mid-image">
-            <a href="parking"><img src="../img/gamedayparking.jpg" alt="Gameday parking" style="border: 1px solid #000000;"  class="hover-img img-fluid"></a>
+            <a href="parking"><img src="../img/parking_front_page.png" alt="Gameday parking" style="border: 1px solid #000000;"  class="hover-img img-fluid"></a>
         </div>
         <div class="col-lg-6 mid-image">
-            <a href="redwhitegame"><img src="../img/coachesluncheon.jpg" alt="Spring Game" style="border: 1px solid #000000;"  class="hover-img img-fluid"></a>
+            <a href="redwhitegame"><img src="../img/spring_front_page.png" alt="Spring Game" style="border: 1px solid #000000;"  class="hover-img img-fluid"></a>
         </div>
     </div>
         <div class="spacer"></div>
