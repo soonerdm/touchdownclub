@@ -10,6 +10,9 @@ networks:
 
 services:
     app:
+        build:
+            context: .
+            dockerfile: dev.Dockerfile
         container_name: tdc_php
         image: touchdownclub:dev
         working_dir: /srv

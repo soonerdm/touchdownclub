@@ -38,8 +38,8 @@
         <label>Email Address or Smart phone number where tickets will be sent.</label>
         <input type="text" name="EmailOrPhone" value="" style=margin-bottom:12px>
 <br>    <input type="hidden" name="name" value="2|OU-TX tickets">
-        <input type="hidden" name="price" value="420">
-        <input type="submit" class="btn btn-crimson" value="Add To Cart $420"><small style="font-weight:normal !important">(Includes Processing Fees)</small>
+        <input type="hidden" name="price" value="565">
+        <input type="submit" class="btn btn-crimson" value="Add To Cart $565"><small style="font-weight:normal !important">(Includes Processing Fees)</small>
         </form>
         <hr width=50>
 

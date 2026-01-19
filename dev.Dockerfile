@@ -2,8 +2,8 @@ FROM node:18.12.1 AS node
 FROM php:8.1-fpm
 
 # create user
-ARG user
-ARG uid
+ARG user=david
+ARG uid=1000
 RUN useradd \
     -m \
     -G root \
