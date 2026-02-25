@@ -3,6 +3,7 @@
 @section('title', 'Page Title')
 
 @section('content')
+<!--
 <div class="container">
       <form action="https://outdclub.foxycart.com/cart" method="post" rel="shadowbox;height=140;width=120" accept-charset="utf-8">
                  <input type="hidden" name="name" value="Red White Game BBQ Tickets" />
@@ -61,4 +62,5 @@
     <br>
     In order to add game tickets after you add your BBQ tickets please click the back button and add the game tickets
 </div>
+-->
 @stop
