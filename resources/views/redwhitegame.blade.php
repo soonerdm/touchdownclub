@@ -3,11 +3,11 @@
 @section('title', 'Page Title')
 
 @section('content')
-<!--
+
 <div class="container">
       <form action="https://outdclub.foxycart.com/cart" method="post" rel="shadowbox;height=140;width=120" accept-charset="utf-8">
                  <input type="hidden" name="name" value="Red White Game BBQ Tickets" />
-                 <input type="hidden" name="price" value="35" />
+                 <input type="hidden" name="price" value="38.50" />
 
                  <label class="label_left" style="font-weight: bold">Annual Spring Game BBQ </label><br>
                  <span style="font-size: 14px;"></span>
@@ -36,7 +36,7 @@
 
     <form action="https://outdclub.foxycart.com/cart" method="post" rel="shadowbox;height=140;width=120" accept-charset="utf-8">
         <input type="hidden" name="name" value="Red White Game Tickets" />
-        <input type="hidden" name="price" value="10" />
+        <input type="hidden" name="price" value="12" />
         <select name="quantity">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -62,5 +62,5 @@
     <br>
     In order to add game tickets after you add your BBQ tickets please click the back button and add the game tickets
 </div>
--->
+
 @stop
